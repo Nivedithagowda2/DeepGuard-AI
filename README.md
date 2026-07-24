@@ -133,6 +133,7 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
 9. 📊 Results are displayed on the dashboard.
 10. 🗄️ Only anonymized verification results are stored in the local SQLite database for auditing.
 
+---
 
 # 🛠 Tech Stack
 
