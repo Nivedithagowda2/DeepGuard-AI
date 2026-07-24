@@ -107,7 +107,9 @@ The backend will be available at `http://localhost:8000`.
 
 ```bash
 cd frontend
-npm start
+npm install
+npm run dev
+
 ```
 
 The app will open at `http://localhost:3000`.
