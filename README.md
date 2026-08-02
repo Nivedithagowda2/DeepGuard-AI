@@ -9,7 +9,6 @@ Most face-verification systems today only check **"Does this face match?"** They
 Many existing liveness solutions stream raw video to cloud servers, increasing latency, bandwidth usage, and privacy risks.
 
 ✨ **DeepGuard AI solves both problems by performing liveness and deepfake detection locally using anonymized facial landmark coordinates instead of raw video.** Verification is fast, secure, and privacy-preserving.
-
 ---
 
 # 🚨 Problem Statement
