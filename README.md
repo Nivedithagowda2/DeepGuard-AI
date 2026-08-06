@@ -323,7 +323,7 @@ DeepGuard AI follows a **data minimization** approach.
 -  ONNX Runtime
   https://onnxruntime.ai/
 
-- 🚀 FastAPI
+-  FastAPI
   https://fastapi.tiangolo.com/
 
 ---
