@@ -138,12 +138,12 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
 
 | Component | Technology |
 |-----------|------------|
-| 💻 Language | Python 3.10+ |
-| 👤 Face Detection | MediaPipe |
-| 🧠 AI Inference | ONNX Runtime |
-| ⚡ Backend | FastAPI |
-| 🎨 Frontend | React |
-| 🗄 Database | SQLite |
+|  Language | Python 3.10+ |
+|  Face Detection | MediaPipe |
+|  AI Inference | ONNX Runtime |
+|  Backend | FastAPI |
+|  Frontend | React |
+|  Database | SQLite |
 
 ---
 
