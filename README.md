@@ -1,6 +1,6 @@
 # 🛡️ DeepGuard AI — Multimodal Anti-Spoofing Verification System
 
-## 📌 App Description
+##  App Description
 
 DeepGuard AI is a **privacy-first, edge-based identity verification system** that detects presentation attacks — printed photos, phone/video replays, and AI-generated deepfakes — at security checkpoints such as office entry gates, bank counters, ATMs, and remote onboarding calls.
 
@@ -93,16 +93,16 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
       📍 Facial Landmark Extraction
       (Only Landmark Coordinates)
                       │
-         ❌ No Raw Images Stored
+          No Raw Images Stored
                       │
           ┌───────────┴───────────┐
           ▼                       ▼
- 🫣 Liveness Detection      🤖 Deepfake Detection
+  Liveness Detection       Deepfake Detection
  (Blink, Head Motion)     (Photo, Replay, AI Face)
           │                       │
           └───────────┬───────────┘
                       ▼
-           🧠 Risk Scoring Engine
+            Risk Scoring Engine
        (Combine AI Predictions)
                       │
           ┌───────────┴───────────┐
@@ -111,10 +111,10 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
           │                       │
           └───────────┬───────────┘
                       ▼
-          📊 Dashboard & Alerts
+           Dashboard & Alerts
                       │
                       ▼
-      🗄️ SQLite Audit Log (Local)
+       SQLite Audit Log (Local)
 ```
 
 ## 🔄 Workflow
