@@ -317,7 +317,7 @@ DeepGuard AI follows a **data minimization** approach.
 
 # 📚 References
 
-- 👤 MediaPipe Face Landmarker
+-  MediaPipe Face Landmarker
   https://developers.google.com/mediapipe
 
 -  ONNX Runtime
