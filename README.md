@@ -259,12 +259,12 @@ http://localhost:3000
 
 # 📱 Using the App
 
-1. 🌐 Open the web application.
-2. ▶️ Click **Start Verification**.
-3. 📷 Allow webcam access.
-4. 👁️ Blink or move naturally.
-5. 🧠 DeepGuard analyzes liveness and spoofing.
-6. 📊 View the result:
+1.  Open the web application.
+2.  Click **Start Verification**.
+3.  Allow webcam access.
+4.  Blink or move naturally.
+5.  DeepGuard analyzes liveness and spoofing.
+6.  View the result:
 
 ✅ VERIFIED
 
