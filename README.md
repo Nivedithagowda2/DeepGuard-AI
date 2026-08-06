@@ -22,17 +22,17 @@ Face verification systems used in:
 
 can be fooled by:
 
-- 📸 Printed Photos
-- 📱 Replay Videos
-- 🤖 AI-generated Deepfakes
+-  Printed Photos
+-  Replay Videos
+-  AI-generated Deepfakes
 
 Most systems only verify appearance instead of confirming a **live human is physically present.**
 
 Cloud-based liveness detection also introduces:
 
-- ⏳ Higher latency
-- 🌍 Bandwidth costs
-- 🔓 Privacy risks from transmitting biometric data
+-  Higher latency
+-  Bandwidth costs
+-  Privacy risks from transmitting biometric data
 
 ---
 
@@ -50,29 +50,29 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
 
 # ✨ Key Features
 
-- 👤 **Face Landmark Extraction**
+-  **Face Landmark Extraction**
   - Captures only facial landmark coordinates
   - Never stores raw images unnecessarily
 
-- 👁️ **Liveness Detection**
+-  **Liveness Detection**
   - Detects blinking
   - Head movement
   - Natural facial motion
 
-- 🧠 **Deepfake & Spoof Detection**
+-  **Deepfake & Spoof Detection**
   - Printed photos
   - Phone replay attacks
   - Video replay attacks
   - AI-generated faces
 
-- 📊 **Real-Time Risk Scoring**
+-  **Real-Time Risk Scoring**
   - Combines all detection signals
   - Produces one interpretable risk score
 
-- 🚨 **Alert Dashboard**
+-  **Alert Dashboard**
   - Instantly flags suspicious verification attempts
 
-- 🗂️ **Local Logging**
+-  **Local Logging**
   - Stores anonymized verification history
   - Useful for auditing and analytics
 
@@ -90,7 +90,7 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
         👁️ Face Detection (MediaPipe)
                       │
                       ▼
-      📍 Facial Landmark Extraction
+       Facial Landmark Extraction
       (Only Landmark Coordinates)
                       │
           No Raw Images Stored
@@ -119,18 +119,18 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
 
 ## 🔄 Workflow
 
-1. 📷 The webcam captures the user's face.
-2. 👁️ MediaPipe detects the face and extracts **468 facial landmark coordinates**.
-3. 🔒 Raw video frames are processed locally and discarded.
-4. 📍 Only landmark coordinates are passed to the AI models.
-5. 🫣 The liveness model checks for natural human behavior such as blinking and head movement.
-6. 🤖 The spoof detection model detects printed photos, replay attacks, and AI-generated deepfakes.
-7. 🧠 The Risk Engine combines the outputs of both models into a single confidence score.
-8. 🚦 Based on the score, the system returns either:
-   - ✅ VERIFIED
-   - 🚨 HIGH RISK
-9. 📊 Results are displayed on the dashboard.
-10. 🗄️ Only anonymized verification results are stored in the local SQLite database for auditing.
+1.  The webcam captures the user's face.
+2.  MediaPipe detects the face and extracts **468 facial landmark coordinates**.
+3.  Raw video frames are processed locally and discarded.
+4.  Only landmark coordinates are passed to the AI models.
+5.  The liveness model checks for natural human behavior such as blinking and head movement.
+6.  The spoof detection model detects printed photos, replay attacks, and AI-generated deepfakes.
+7.  The Risk Engine combines the outputs of both models into a single confidence score.
+8.  Based on the score, the system returns either:
+   -  VERIFIED
+   -  HIGH RISK
+9.  Results are displayed on the dashboard.
+10.  Only anonymized verification results are stored in the local SQLite database for auditing.
 
 ---
 
