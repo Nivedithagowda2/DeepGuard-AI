@@ -320,7 +320,7 @@ DeepGuard AI follows a **data minimization** approach.
 - 👤 MediaPipe Face Landmarker
   https://developers.google.com/mediapipe
 
-- ⚡ ONNX Runtime
+-  ONNX Runtime
   https://onnxruntime.ai/
 
 - 🚀 FastAPI
