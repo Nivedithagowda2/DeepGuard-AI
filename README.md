@@ -10,7 +10,7 @@ Many existing liveness solutions stream raw video to cloud servers, increasing l
 
 ✨ **DeepGuard AI solves both problems by performing liveness and deepfake detection locally using anonymized facial landmark coordinates instead of raw video.** Verification is fast, secure, and privacy-preserving.
 ---
-
+in
 # 🚨 Problem Statement
 
 Face verification systems used in:
