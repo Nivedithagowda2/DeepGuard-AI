@@ -1,4 +1,4 @@
-# 🛡️ DeepGuard AI — Multimodal Anti-Spoofing Verification System in
+# 🛡️ DeepGuard AI — Multimodal Anti-Spoofing Verification System 
 
 ##  App Description
 
