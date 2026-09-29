@@ -1,7 +1,7 @@
 #  DeepGuard AI — Multimodal Anti-Spoofing Verification System 
  
 ##  App Description
-
+v
 DeepGuard AI is a **privacy-first, edge-based identity verification system** that detects presentation attacks — printed photos, phone/video replays, and AI-generated deepfakes — at security checkpoints such as office entry gates, bank counters, ATMs, and remote onboarding calls.
 
 Most face-verification systems today only check **"Does this face match?"** They don't verify **"Is this a real, living person present right now?"** Attackers exploit this gap using printed photos, replay videos, or AI-generated faces.
