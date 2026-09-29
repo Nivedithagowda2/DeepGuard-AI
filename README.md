@@ -5,7 +5,7 @@ v
 DeepGuard AI is a **privacy-first, edge-based identity verification system** that detects presentation attacks — printed photos, phone/video replays, and AI-generated deepfakes — at security checkpoints such as office entry gates, bank counters, ATMs, and remote onboarding calls.
 
 Most face-verification systems today only check **"Does this face match?"** They don't verify **"Is this a real, living person present right now?"** Attackers exploit this gap using printed photos, replay videos, or AI-generated faces.
-
+ 
 Many existing liveness solutions stream raw video to cloud servers, increasing latency, bandwidth usage, and privacy risks.
 
  **DeepGuard AI solves both problems by performing liveness and deepfake detection locally using anonymized facial landmark coordinates instead of raw video.** Verification is fast, secure, and privacy-preserving.
