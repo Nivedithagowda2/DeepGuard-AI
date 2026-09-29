@@ -1,4 +1,4 @@
-# 🛡️ DeepGuard AI — Multimodal Anti-Spoofing Verification System 
+#  DeepGuard AI — Multimodal Anti-Spoofing Verification System 
 
 ##  App Description
 
@@ -8,17 +8,17 @@ Most face-verification systems today only check **"Does this face match?"** They
 
 Many existing liveness solutions stream raw video to cloud servers, increasing latency, bandwidth usage, and privacy risks.
 
-✨ **DeepGuard AI solves both problems by performing liveness and deepfake detection locally using anonymized facial landmark coordinates instead of raw video.** Verification is fast, secure, and privacy-preserving.
+ **DeepGuard AI solves both problems by performing liveness and deepfake detection locally using anonymized facial landmark coordinates instead of raw video.** Verification is fast, secure, and privacy-preserving.
 ---
 
-# 🚨 Problem Statement
+#  Problem Statement
 
 Face verification systems used in:
 
-- 🏢 Office Entry
-- 🏦 Banks
-- 💳 ATMs
-- 🌐 Remote KYC & Onboarding
+-  Office Entry
+-  Banks
+-  ATMs
+-  Remote KYC & Onboarding
 
 can be fooled by:
 
@@ -36,19 +36,20 @@ Cloud-based liveness detection also introduces:
 
 ---
 
-# 💡 Our Solution
+#  Our Solution
 
 DeepGuard AI performs **real-time liveness and deepfake detection directly at the edge**, using only facial landmark coordinates rather than raw images.
 
-✅ Detects spoofing instantly
+ Detects spoofing instantly
 
-✅ No raw face video leaves the device
 
-✅ Privacy-first by design
+ No raw face video leaves the device
+
+ Privacy-first by design
 
 ---
 
-# ✨ Key Features
+#  Key Features
 
 -  **Face Landmark Extraction**
   - Captures only facial landmark coordinates
@@ -78,16 +79,16 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
-                    👤 User
+                     User
                       │
                       ▼
-               📷 Webcam Capture
+                Webcam Capture
                       │
                       ▼
-        👁️ Face Detection (MediaPipe)
+         Face Detection (MediaPipe)
                       │
                       ▼
        Facial Landmark Extraction
@@ -117,7 +118,7 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
        SQLite Audit Log (Local)
 ```
 
-## 🔄 Workflow
+##  Workflow
 
 1.  The webcam captures the user's face.
 2.  MediaPipe detects the face and extracts **468 facial landmark coordinates**.
@@ -147,19 +148,19 @@ DeepGuard AI performs **real-time liveness and deepfake detection directly at th
 
 ---
 
-# 🚀 Setup Instructions
+#  Setup Instructions
 
 ## 📋 Prerequisites
 
-- ✅ Python 3.10+
-- ✅ Node.js 18+
-- ✅ npm
-- ✅ Git
-- ✅ Webcam
+-  Python 3.10+
+-  Node.js 18+
+-  npm
+-  Git
+-  Webcam
 
 ---
 
-## 1️⃣ Clone the Repository
+##  Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/DeepGuard-AI.git
@@ -169,7 +170,7 @@ cd DeepGuard-AI
 
 ---
 
-## 2️⃣ Backend Setup
+##  Backend Setup
 
 ```bash
 cd backend
@@ -198,7 +199,7 @@ numpy
 
 ---
 
-## 3️⃣ Frontend Setup
+##  Frontend Setup
 
 ```bash
 cd ../frontend
@@ -208,7 +209,7 @@ npm install
 
 ---
 
-## 4️⃣ Add AI Models
+##  Add AI Models
 
 Place the ONNX models inside:
 
@@ -221,9 +222,9 @@ backend/models/
 
 ---
 
-# ▶️ Run the Project
+#  Run the Project
 
-## 🔹 Start Backend
+##  Start Backend
 
 ```bash
 cd backend
@@ -239,7 +240,7 @@ http://localhost:8000
 
 ---
 
-## 🔹 Start Frontend
+##  Start Frontend
 
 ```bash
 cd frontend
@@ -257,7 +258,7 @@ http://localhost:3000
 
 ---
 
-# 📱 Using the App
+#  Using the App
 
 1.  Open the web application.
 2.  Click **Start Verification**.
@@ -266,18 +267,18 @@ http://localhost:3000
 5.  DeepGuard analyzes liveness and spoofing.
 6.  View the result:
 
-✅ VERIFIED
+ VERIFIED
 
 or
 
-🚨 HIGH RISK
+ HIGH RISK
 
-7. 📋 Open the Supervisor Dashboard to review verification history.
+7.  Open the Supervisor Dashboard to review verification history.
 
 ---
 
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 DeepGuard-AI/
@@ -303,19 +304,19 @@ DeepGuard-AI/
 
 ---
 
-# 🔒 Privacy First
+#  Privacy First
 
 DeepGuard AI follows a **data minimization** approach.
 
-✅ Raw webcam frames are processed locally.
+ Raw webcam frames are processed locally.
 
-✅ No face videos are transmitted.
+ No face videos are transmitted.
 
-✅ Only anonymized landmark coordinates and verification results are stored.
+ Only anonymized landmark coordinates and verification results are stored.
 
 ---
 
-# 📚 References
+#  References
 
 -  MediaPipe Face Landmarker
   https://developers.google.com/mediapipe
@@ -328,12 +329,12 @@ DeepGuard AI follows a **data minimization** approach.
 
 ---
 
-# 👩‍💻 Developer
+#  Developer
 
 **Niveditha**
 
 ---
 
-# 📄 License
+#  License
 
 This project is licensed under the **MIT License**.
